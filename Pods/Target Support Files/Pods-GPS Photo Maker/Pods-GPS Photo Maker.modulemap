@@ -1,0 +1,6 @@
+framework module Pods_GPS_Photo_Maker {
+  umbrella header "Pods-GPS Photo Maker-umbrella.h"
+
+  export *
+  module * { export * }
+}
