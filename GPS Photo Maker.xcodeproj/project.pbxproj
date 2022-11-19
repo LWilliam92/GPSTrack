@@ -90,6 +90,8 @@
 		1FF784882259D9B400C01D13 /* UIControl+HitTestEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7847E2259D9B400C01D13 /* UIControl+HitTestEdgeInsets.m */; };
 		1FF7848B225A136500C01D13 /* SecoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF7848A225A136500C01D13 /* SecoundView.m */; };
 		1FF7848D225A137300C01D13 /* SecoundView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FF7848C225A137300C01D13 /* SecoundView.xib */; };
+		553BB50E2929414500ADD758 /* PrivacyPolicyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 553BB50D2929414500ADD758 /* PrivacyPolicyVC.m */; };
+		553BB51129294B3B00ADD758 /* TermsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 553BB51029294B3B00ADD758 /* TermsVC.m */; };
 		63CEE757B6C8B5DF368D7C50 /* Pods_GPS_Photo_Maker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED86AB75D5EF9BC452AB1AB8 /* Pods_GPS_Photo_Maker.framework */; };
 /* End PBXBuildFile section */
 
@@ -244,6 +246,10 @@
 		1FF7848A225A136500C01D13 /* SecoundView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecoundView.m; sourceTree = "<group>"; };
 		1FF7848C225A137300C01D13 /* SecoundView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecoundView.xib; sourceTree = "<group>"; };
 		485FB21B6FDBA941B0A2157F /* Pods-GPS Photo Maker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPS Photo Maker.release.xcconfig"; path = "Target Support Files/Pods-GPS Photo Maker/Pods-GPS Photo Maker.release.xcconfig"; sourceTree = "<group>"; };
+		553BB50C2929414500ADD758 /* PrivacyPolicyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrivacyPolicyVC.h; sourceTree = "<group>"; };
+		553BB50D2929414500ADD758 /* PrivacyPolicyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrivacyPolicyVC.m; sourceTree = "<group>"; };
+		553BB50F29294B3B00ADD758 /* TermsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermsVC.h; sourceTree = "<group>"; };
+		553BB51029294B3B00ADD758 /* TermsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermsVC.m; sourceTree = "<group>"; };
 		ED86AB75D5EF9BC452AB1AB8 /* Pods_GPS_Photo_Maker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPS_Photo_Maker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -526,6 +532,8 @@
 		1F5B72FD2265B27A00BA3294 /* Setting Class */ = {
 			isa = PBXGroup;
 			children = (
+				553BB50B29293E1600ADD758 /* TnC */,
+				553BB50A29293E0E00ADD758 /* Privacy */,
 				1F4AE54C2258D19E0027509B /* Setting */,
 				1F4AE55C2258F2B60027509B /* ChangeDateTime */,
 				1F4AE5582258EB050027509B /* Change Date Formate */,
@@ -623,6 +631,24 @@
 				485FB21B6FDBA941B0A2157F /* Pods-GPS Photo Maker.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		553BB50A29293E0E00ADD758 /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				553BB50C2929414500ADD758 /* PrivacyPolicyVC.h */,
+				553BB50D2929414500ADD758 /* PrivacyPolicyVC.m */,
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		553BB50B29293E1600ADD758 /* TnC */ = {
+			isa = PBXGroup;
+			children = (
+				553BB50F29294B3B00ADD758 /* TermsVC.h */,
+				553BB51029294B3B00ADD758 /* TermsVC.m */,
+			);
+			path = TnC;
 			sourceTree = "<group>";
 		};
 		F8FA50EF81934C009C98B999 /* Frameworks */ = {
@@ -808,11 +834,13 @@
 				1F4AE54B2258BFAC0027509B /* BaseViewController.m in Sources */,
 				1FF7845A2259B6D000C01D13 /* YMSAlbumPickerViewController.m in Sources */,
 				1FF784862259D9B400C01D13 /* MSSliderView.m in Sources */,
+				553BB51129294B3B00ADD758 /* TermsVC.m in Sources */,
 				1FF784582259B6D000C01D13 /* YMSAlbumCell.m in Sources */,
 				1FF784872259D9B400C01D13 /* MSThumbView.m in Sources */,
 				1F25DF8E225B7D71008B01CB /* IQTextView.m in Sources */,
 				1F25DF4B225B20FF008B01CB /* SevnthView.m in Sources */,
 				1F25DF3C225B08AE008B01CB /* FourthView.m in Sources */,
+				553BB50E2929414500ADD758 /* PrivacyPolicyVC.m in Sources */,
 				1F4AE5532258D9BA0027509B /* ChangeGPSData.m in Sources */,
 				1F25DF89225B7D71008B01CB /* IQUITextFieldView+Additions.m in Sources */,
 				1F25DF52225B2D4B008B01CB /* EightView.m in Sources */,

@@ -12,6 +12,8 @@
 #import "DateFormateVC.h"
 #import "ChangeDateTime.h"
 #import "StringConstants.h"
+#import "PrivacyPolicyVC.h"
+#import "TermsVC.h"
 
 @interface SettingVC : BaseViewController<FBAdViewDelegate,FBInterstitialAdDelegate>
 
@@ -23,6 +25,8 @@
 - (IBAction)onClickGPS:(id)sender;
 - (IBAction)onClickDate:(id)sender;
 - (IBAction)onClickAddress:(id)sender;
+- (IBAction)onClickPrivacy:(id)sender;
+- (IBAction)onClickTerms:(id)sender;
 - (IBAction)changeDateFormate:(id)sender;
 
 

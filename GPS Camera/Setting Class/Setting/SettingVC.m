@@ -118,6 +118,16 @@
     [self.navigationController pushViewController:nextVC animated:YES];
 }
 
+- (IBAction)onClickPrivacy:(id)sender {
+    PrivacyPolicyVC *nextVC = [self.storyboard instantiateViewControllerWithIdentifier:@"PrivacyPolicyVC"];
+    [self.navigationController pushViewController:nextVC animated:YES];
+}
+
+- (IBAction)onClickTerms:(id)sender {
+    TermsVC *nextVC = [self.storyboard instantiateViewControllerWithIdentifier:@"TermsVC"];
+    [self.navigationController pushViewController:nextVC animated:YES];
+}
+
 - (IBAction)onClickBack:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
