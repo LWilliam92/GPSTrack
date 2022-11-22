@@ -24,6 +24,7 @@
     //FACEBOOK BANNER ADS
     self.adView = [[FBAdView alloc] initWithPlacementID:FB_BANNER_ID adSize:kFBAdSizeHeight50Banner rootViewController:self];
     self.adView.delegate = self;
+    self.privacyPolicyLbl.numberOfLines = 0;
     [self.adView loadAd];
     self.adView.hidden = YES;
     
