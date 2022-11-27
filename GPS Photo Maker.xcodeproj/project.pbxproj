@@ -692,7 +692,7 @@
 				TargetAttributes = {
 					1F4AE51122587B040027509B = {
 						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1026,10 +1026,10 @@
 			baseConfigurationReference = 1D2030F4D899A19DD92AA9C1 /* Pods-GPS Photo Maker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Denishkumar Dharsandiya (FMBY526Z2Z)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5D2JU74CXV;
-				ENABLE_BITCODE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM5CZ48GUD;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1038,11 +1038,12 @@
 					"$(PROJECT_DIR)/GPS\\ Camera",
 				);
 				INFOPLIST_FILE = "GPS Camera/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gpsphotomaker.gps;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GPS.Maker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c887dccc-dfb9-4c52-b59c-e361446bbdd6";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -1053,10 +1054,10 @@
 			baseConfigurationReference = 485FB21B6FDBA941B0A2157F /* Pods-GPS Photo Maker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Denishkumar Dharsandiya (FMBY526Z2Z)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 5D2JU74CXV;
-				ENABLE_BITCODE = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM5CZ48GUD;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -1065,11 +1066,12 @@
 					"$(PROJECT_DIR)/GPS\\ Camera",
 				);
 				INFOPLIST_FILE = "GPS Camera/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.gpsphotomaker.gps;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GPS.Maker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c887dccc-dfb9-4c52-b59c-e361446bbdd6";
+				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
