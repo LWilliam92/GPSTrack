@@ -1,4 +1,8 @@
 PODS:
+  - Alamofire (5.6.2)
+  - DPOTPView (1.5.12)
+  - EFQRCode (6.2.1):
+    - swift_qrcodejs (~> 2.2.2)
   - FBAudienceNetwork (6.12.0)
   - Firebase/Analytics (10.2.0):
     - Firebase/Core
@@ -71,6 +75,7 @@ PODS:
     - FirebaseCore (~> 10.0)
     - FirebaseCoreExtension (~> 10.0)
     - GTMSessionFetcher/Core (< 4.0, >= 2.1)
+  - FontBlaster (5.3.0)
   - GoogleAppMeasurement (10.2.0):
     - GoogleAppMeasurement/AdIdSupport (= 10.2.0)
     - GoogleUtilities/AppDelegateSwizzler (~> 7.8)
@@ -114,24 +119,64 @@ PODS:
     - GoogleUtilities/Logger
   - GoogleUtilities/UserDefaults (7.10.0):
     - GoogleUtilities/Logger
+  - GradientProgress (1.0)
   - GTMSessionFetcher/Core (3.0.0)
+  - iCarousel (1.8.3)
+  - iProgressHUD (1.1.1)
+  - IQKeyboardManagerSwift (6.5.10)
+  - JVFloatLabeledTextField (1.2.2)
+  - MarqueeLabel (4.3.0)
+  - MercariQRScanner (1.9.0)
+  - Moya (15.0.0):
+    - Moya/Core (= 15.0.0)
+  - Moya/Core (15.0.0):
+    - Alamofire (~> 5.0)
   - nanopb (2.30909.0):
     - nanopb/decode (= 2.30909.0)
     - nanopb/encode (= 2.30909.0)
   - nanopb/decode (2.30909.0)
   - nanopb/encode (2.30909.0)
   - PromisesObjC (2.1.1)
+  - SDWebImage (5.14.2):
+    - SDWebImage/Core (= 5.14.2)
+  - SDWebImage/Core (5.14.2)
+  - Shimmer (1.0.2)
+  - SideMenu (6.5.0)
+  - SnapKit (5.6.0)
+  - SNCollectionViewLayout (1.0.1)
+  - SwiftQRScanner (1.1.5)
 
 DEPENDENCIES:
+  - Alamofire
+  - DPOTPView
+  - EFQRCode (~> 6.2.1)
   - FBAudienceNetwork
   - Firebase/Analytics
   - Firebase/Core
   - Firebase/Crashlytics
   - Firebase/Messaging
   - Firebase/Storage
+  - FontBlaster
+  - GradientProgress
+  - iCarousel
+  - iProgressHUD (~> 1.1.1)
+  - IQKeyboardManagerSwift
+  - JVFloatLabeledTextField
+  - MarqueeLabel
+  - MercariQRScanner
+  - Moya (~> 15.0)
+  - SDWebImage
+  - Shimmer
+  - SideMenu
+  - SnapKit
+  - SNCollectionViewLayout
+  - SwiftQRScanner (from `https://github.com/vinodiOS/SwiftQRScanner`)
 
 SPEC REPOS:
   trunk:
+    - Alamofire
+    - DPOTPView
+    - EFQRCode
     - FBAudienceNetwork
     - Firebase
     - FirebaseAnalytics
@@ -144,14 +189,40 @@ SPEC REPOS:
     - FirebaseInstallations
     - FirebaseMessaging
     - FirebaseStorage
+    - FontBlaster
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleUtilities
+    - GradientProgress
     - GTMSessionFetcher
+    - iCarousel
+    - iProgressHUD
+    - IQKeyboardManagerSwift
+    - JVFloatLabeledTextField
+    - MarqueeLabel
+    - MercariQRScanner
+    - Moya
     - nanopb
     - PromisesObjC
+    - SDWebImage
+    - Shimmer
+    - SideMenu
+    - SnapKit
+    - SNCollectionViewLayout
+
+EXTERNAL SOURCES:
+  SwiftQRScanner:
+    :git: https://github.com/vinodiOS/SwiftQRScanner
+
+CHECKOUT OPTIONS:
+  SwiftQRScanner:
+    :commit: 640b4216478e4b67833a2be88a43ed324c7f928a
+    :git: https://github.com/vinodiOS/SwiftQRScanner
 
 SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  DPOTPView: 28d8a0a84a2ff4b1e4a7712065aba1cbb14e2704
+  EFQRCode: a4d39ec3466b68dffa71de3b5caef7c9ceefdc53
   FBAudienceNetwork: e0fcc9091fced34910ed0b6da06f129db46ac9e6
   Firebase: a3ea7eba4382afd83808376edb99acdaff078dcf
   FirebaseAnalytics: 24a15e58e505abcedc3017b6f7c206fbfa964580
@@ -164,13 +235,28 @@ SPEC CHECKSUMS:
   FirebaseInstallations: 004915af170935e3a583faefd5f8bc851afc220f
   FirebaseMessaging: cc9f40f5b7494680f3844d08e517e92aa4e8d9f7
   FirebaseStorage: e7b3fdc90b579cda35e5a0e4c6b206325766e75a
+  FontBlaster: 941f89d735a29e1c7d24e7a90d3e16939ef1609a
   GoogleAppMeasurement: 3bc3a6484b7bb20dd8489242c4dd3c92a3e5107b
   GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
   GoogleUtilities: bad72cb363809015b1f7f19beb1f1cd23c589f95
+  GradientProgress: ee9c47443c80059b0367467d267b2dd9572de5e2
   GTMSessionFetcher: c1edebe64e9fb4e8f6415d018edf1fd3eac074a1
+  iCarousel: d782f635afac190c49bb8ee455882284cff8b85f
+  iProgressHUD: caa742128253c97f2c2e1ec59e2bbe6cf689df6a
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  JVFloatLabeledTextField: df48598472ee015701d509f43e59492a0d4ca208
+  MarqueeLabel: 02f5ac8fd6877c94564556cb93fa86c70c08baeb
+  MercariQRScanner: e5aea873969af59b09b4cc411fc1c5b6293dba44
+  Moya: 138f0573e53411fb3dc17016add0b748dfbd78ee
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  SDWebImage: b9a731e1d6307f44ca703b3976d18c24ca561e84
+  Shimmer: c5374be1c2b0c9e292fb05b339a513cf291cac86
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SNCollectionViewLayout: 9991574aa022237c75acf0e3dc890b09aa4e4c31
+  SwiftQRScanner: c4824d46d6af3e595a1a895b1c0c117da66da394
 
-PODFILE CHECKSUM: ccb9b18f85418799eda8bfacc786246599766a5b
+PODFILE CHECKSUM: 66911f3b80cdf9c660f0c723159fde5d31bb920f
 
 COCOAPODS: 1.11.3

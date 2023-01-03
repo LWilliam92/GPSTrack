@@ -1,0 +1,148 @@
+%PDF-1.7
+
+1 0 obj
+  << /Length 2 0 R
+     /Range [ 0.000000 1.000000 0.000000 1.000000 0.000000 1.000000 ]
+     /Domain [ 0.000000 1.000000 ]
+     /FunctionType 4
+  >>
+stream
+{  0.184314 exch 0.415686 exch 0.960784 exch dup 0.000000 gt { exch pop exch pop exch pop dup 0.000000 sub 0.391635 mul 0.184314 add exch dup 0.000000 sub 0.234981 mul 0.415686 add exch dup 0.000000 sub 0.000000 mul 0.960784 add exch } if dup 0.150200 gt { exch pop exch pop exch pop dup 0.150200 sub 0.309723 mul 0.243137 add exch dup 0.150200 sub 0.190599 mul 0.450980 add exch dup 0.150200 sub -0.011912 mul 0.960784 add exch } if dup 0.479400 gt { exch pop exch pop exch pop dup 0.479400 sub 0.213564 mul 0.345098 add exch dup 0.479400 sub 0.133477 mul 0.513726 add exch dup 0.479400 sub 0.000000 mul 0.956863 add exch } if dup 0.773200 gt { exch pop exch pop exch pop dup 0.773200 sub 0.103745 mul 0.407843 add exch dup 0.773200 sub 0.051873 mul 0.552941 add exch dup 0.773200 sub 0.000000 mul 0.956863 add exch } if dup 1.000000 gt { exch pop exch pop exch pop 0.431373 exch 0.564706 exch 0.956863 exch } if pop }
+endstream
+endobj
+
+2 0 obj
+  919
+endobj
+
+3 0 obj
+  << /Length 4 0 R
+     /Range [ 0.000000 1.000000 0.000000 1.000000 0.000000 1.000000 ]
+     /Domain [ 0.000000 1.000000 ]
+     /FunctionType 4
+  >>
+stream
+{  0.184314 exch 0.415686 exch 0.960784 exch dup 0.000000 gt { exch pop exch pop exch pop dup 0.000000 sub 0.391635 mul 0.184314 add exch dup 0.000000 sub 0.234981 mul 0.415686 add exch dup 0.000000 sub 0.000000 mul 0.960784 add exch } if dup 0.150200 gt { exch pop exch pop exch pop dup 0.150200 sub 0.309723 mul 0.243137 add exch dup 0.150200 sub 0.190599 mul 0.450980 add exch dup 0.150200 sub -0.011912 mul 0.960784 add exch } if dup 0.479400 gt { exch pop exch pop exch pop dup 0.479400 sub 0.213564 mul 0.345098 add exch dup 0.479400 sub 0.133477 mul 0.513726 add exch dup 0.479400 sub 0.000000 mul 0.956863 add exch } if dup 0.773200 gt { exch pop exch pop exch pop dup 0.773200 sub 0.103745 mul 0.407843 add exch dup 0.773200 sub 0.051873 mul 0.552941 add exch dup 0.773200 sub 0.000000 mul 0.956863 add exch } if dup 1.000000 gt { exch pop exch pop exch pop 0.431373 exch 0.564706 exch 0.956863 exch } if pop }
+endstream
+endobj
+
+4 0 obj
+  919
+endobj
+
+5 0 obj
+  << /Pattern << /P2 << /Matrix [ 48.959385 0.000000 -0.000000 48.959385 17.891968 40.960659 ]
+                        /Shading << /Coords [ 0.000000 0.000000 1.000000 0.000000 ]
+                                    /ColorSpace /DeviceRGB
+                                    /Function 1 0 R
+                                    /Domain [ 0.000000 1.000000 ]
+                                    /ShadingType 2
+                                    /Extend [ true true ]
+                                 >>
+                        /PatternType 2
+                        /Type /Pattern
+                     >>
+                 /P1 << /Matrix [ 83.029892 0.000000 -0.000000 83.029892 0.001343 -42.152206 ]
+                        /Shading << /Coords [ 0.000000 0.000000 1.000000 0.000000 ]
+                                    /ColorSpace /DeviceRGB
+                                    /Function 3 0 R
+                                    /Domain [ 0.000000 1.000000 ]
+                                    /ShadingType 2
+                                    /Extend [ true true ]
+                                 >>
+                        /PatternType 2
+                        /Type /Pattern
+                     >>
+              >> >>
+endobj
+
+6 0 obj
+  << /Length 7 0 R >>
+stream
+/DeviceRGB CS
+/DeviceRGB cs
+q
+1.000000 0.000000 -0.000000 1.000000 0.000000 -0.042358 cm
+/Pattern cs
+/P1 scn
+0.000000 0.042328 m
+0.070000 1.842327 0.030001 3.652351 0.220001 5.442352 c
+0.800001 10.972353 2.419999 16.212349 5.139999 21.062349 c
+10.549999 30.742350 18.519997 37.362389 29.059998 40.852386 c
+29.399998 40.962387 29.670000 40.942299 30.000000 40.762299 c
+37.970001 36.302299 46.010017 36.192307 54.110016 40.392303 c
+54.410015 40.552303 54.660000 40.602394 55.000000 40.482391 c
+68.529999 35.382393 77.320015 25.872339 81.450012 12.052340 c
+82.390015 8.922340 82.840012 5.702343 82.950012 2.432343 c
+82.960014 2.252342 82.999992 2.072304 83.019989 1.892303 c
+83.019989 1.282303 83.019989 0.672337 83.019989 0.052338 c
+55.349991 0.042339 27.680000 0.042328 0.000000 0.042328 c
+h
+f
+n
+Q
+q
+1.000000 0.000000 -0.000000 1.000000 17.890015 40.930054 cm
+/Pattern cs
+/P2 scn
+24.500000 0.020012 m
+11.020000 0.010014 0.000000 11.049919 0.000000 24.549919 c
+0.000000 38.039917 10.989979 48.999985 24.509979 48.989983 c
+37.999977 48.979984 48.959991 38.020020 48.959991 24.530022 c
+48.959991 11.040024 37.970001 0.030010 24.500000 0.020012 c
+h
+f
+n
+Q
+
+endstream
+endobj
+
+7 0 obj
+  1150
+endobj
+
+8 0 obj
+  << /Annots []
+     /Type /Page
+     /MediaBox [ 0.000000 0.000000 83.020020 89.920044 ]
+     /Resources 5 0 R
+     /Contents 6 0 R
+     /Parent 9 0 R
+  >>
+endobj
+
+9 0 obj
+  << /Kids [ 8 0 R ]
+     /Count 1
+     /Type /Pages
+  >>
+endobj
+
+10 0 obj
+  << /Pages 9 0 R
+     /Type /Catalog
+  >>
+endobj
+
+xref
+0 11
+0000000000 65535 f
+0000000010 00000 n
+0000001113 00000 n
+0000001135 00000 n
+0000002238 00000 n
+0000002260 00000 n
+0000003502 00000 n
+0000004708 00000 n
+0000004731 00000 n
+0000004904 00000 n
+0000004978 00000 n
+trailer
+<< /ID [ (some) (id) ]
+   /Root 10 0 R
+   /Size 11
+>>
+startxref
+5038
+%%EOF

@@ -1,0 +1,297 @@
+/* 
+  Localizable.strings
+  QPlus
+
+  Created by William Loke on 14/10/2022.
+  
+*/
+
+// Common
+"EmptyButton.text" = " ";
+"SendButton.text" = "Send";
+"VerifyButton.text" = "Verify";
+"RegisterButton.text" = "Register";
+"RequestButton.text" = "Request";
+"CameraButton.text" = "Camera";
+"NextButton.text" = "Next";
+"SubmitButton.text" = "Submit";
+"CancelButton.text" = "Cancel";
+"MoreButton.text" = "More";
+"ConfirmButton.text" = "Confirm";
+"ClearButton.text" = "Clear";
+"CopyButton.text" = "Copy";
+"AddButton.text" = "Add";
+"TopUpButton.text" = "Top Up";
+"ScanToTransferButton.text" = "Scan to transfer";
+"StartButton.text" = "Start";
+"OpenButton.text" = "Open";
+"DownloadButton.text" = "Download";
+"NotAvailableButton.text" = "Not Available";
+"YesButton.text" = "YES";
+"NoButton.text" = "NO";
+"EmptyAmount.text" = "Amount cannot be empty";
+"TryAgainLater.text" = "Please try again later";
+
+"SignInButton.text" = "Sign In";
+"SignOutButton.text" = "Sign Out";
+
+"CheckInButton.text" = "Check In";
+
+"ReferButton.text" = "Refer";
+"DepositButton.text" = "Deposit";
+"ClaimNowButton.text" = "CLAIM NOW";
+"ClaimedButton.text" = "CLAIMED";
+"PlayNowButton.text" = "PLAY NOW";
+
+"MobileNumber.prefix" = "+6";
+"UID.prefix" = "UID";
+
+"English.language.text.capitalize" = "ENGLISH";
+"Bahasa.language.text.capitalize" = "BAHASA";
+"Chinese.language.text.capitalize" = "华语";
+
+"RM30.amount.text" = "RM 30";
+"RM50.amount.text" = "RM 50";
+"RM100.amount.text" = "RM 100";
+"Currency.text" = "MYR";
+"Currency.Amount.text" = "RM %@";
+
+"ClosePopUp.Alert.text" = "Are you sure you want to exit?";
+
+// Placeholder
+"MobileNumber.placeholder" = "Please enter mobile number";
+"UID.placeholder" = "Please enter your UID";
+"TAC.placeholder" = "Please enter TAC";
+"Password.placeholder" = "Please enter password";
+"Password.New.placeholder" = "Please enter your new password";
+"Password.Confirm.placeholder" = "Please enter confirm password";
+"Referral.Code.placeholder" = "Please enter referral code";
+
+"OldPassword.placeholder" = "Please enter old password";
+"NewPassword.placeholder" = "Please enter new password";
+"ConfirmPassword.placeholder" = "Confirm new password";
+"OldPin.placeholder" = "Please enter old pin";
+"NewPin.placeholder" = "Please enter new pin";
+"ConfirmPin.placeholder" = "Confirm new pin";
+
+"OtherAmount.placeholder" = "Please enter for other amount";
+"YourAmount.placeholder" = "Please enter your amount";
+
+"AccountName.TF.text" = "Account Name";
+"AccountNumber.TF.text" = "Account Number";
+"AccountHolder.placeholder" = "Account holder name";
+"AccountNumber.placeholder" = "Bank account number";
+
+"Error.text" = "Error";
+"Attention.text" = "Attention!";
+"OK.text" = "OK";
+// Login
+"SignIn.text" = "Sign In";
+"Register.text" = "R\nE\nG\nI\nS\nT\nE\nR";
+"RememberPass.text" = "Remember Password";
+"Forgot.UID.Pass.text" = "Forgot UID / Forgot Password ?";
+"CustomerService.text" = "Customer Service";
+
+// Forgot
+"Forgot.UID.Pass.title" = "Forgot UID / Password";
+"Forgot.UID.text" = "Forgot UID";
+"Reset.Password.text" = "Reset Password";
+"Or.text" = "or";
+
+// Forgot UID 1
+"Forgot.UID.title" = "Forgot UID";
+"Forgot.UID.description" = "Send authentication code to retrieve login uid";
+
+// Forgot UID 2
+"Forgot.UID.2.description" = "Enter authentication code to retrieve login uid";
+
+// Forgot Password
+"Forgot.Password.title" = "Forgot Password";
+"Forgot.Password.description" = "Send authentication code to reset password";
+
+// Forgot Password 2
+"Forgot.Password.2.description" = "Enter authentication code to reset with new password";
+
+// Register
+"Register.title" = "Registration";
+"UID.title" = "Username";
+"Password.title" = "Password";
+"Confirm.Password.title" = "Confirm Password";
+"Mobile.Number.title" = "Mobile Number";
+"Referral.Code.title" = "Referral Code";
+"Register.description" = "Enter authentication code to complete registration";
+
+// TabBar
+"Home.title" = "Home";
+"Activity.title" = "Activity";
+"Transaction.title" = "Transaction";
+"Payment.title" = "Payment";
+
+// SideMenu
+"SideMenu.title" = "Hi, Welcome to QPluss888";
+"SideMenu.ChangePassword.text" = "Change Login Password";
+"SideMenu.ChangePin.text" = "Change Payment PIN";
+"SideMenu.Referrer.text" = "Referrer";
+"SideMenu.Username.text" = "Username";
+"SideMenu.MobileNo.text" = "Mobile No.";
+"SideMenu.Language.text" = "Language";
+
+"PaymentMethod.text" = "Payment method";
+"SideMenu.cookie.text" = "Uses cookies to enhance your website experience. By staying on the website, you agree to the use of these cookies.";
+"ResponsibleGaming.text" = "Responsible Gaming";
+"SelectLanguage.title.capitalize" = "SELECT LANGUAGE";
+
+"ChangePassword.title" = "Change Login Password";
+"ChangePassword.Password.format" = "1. Password must be 6-15 character, and cannot same as the old password.\n2. Password must include alphanumeric and number character at the same time.";
+"OldPassword.text" = "Old Password";
+"NewPassword.text" = "New Password";
+"ConfirmPassword.text" = "Confirm Password";
+
+"ChangePaymentPin.title" = "Change Payment PIN";
+"OldPin.text" = "Old PIN";
+"NewPin.text" = "New PIN";
+"ConfirmPin.text" = "Confirm PIN";
+
+"SignOut" = "Sign out";
+"ConfirmSignOut" = "Are you sure to sign out?";
+
+// Dashboard
+"Info.title" = "Info";
+"Help.title" = "Help";
+"QR.title" = "QR";
+"Vip.title" = "VIP";
+"Welcome.text" = "Hi, %@";
+"Vip.Level.text" = "VIP %@";
+"Announcement.text" = "Announcement";
+"AllGames.text" = "All Games";
+"Live.text" = "Live";
+"Slots.text" = "Slots";
+"Sports.text" = "Sports";
+"Lottery.text" = "Lottery";
+"ESports.text" = "E Sports";
+
+// Game PopUp
+"Balance.GP.text" = "Balance (MYR)";
+"Rebate.GP.text" = "Rebate";
+"Total.text" = "Total: %@";
+"Rate.text" = "1.00 : %@ Points";
+"Rebate.text" = "Rebate %@%%";
+"TodayTurnover.text" = "Today Turnover: %@";
+"LastTurnover.text" = "Last Turnover: %@";
+
+// QR
+"QR.nav.title" = "Referral QR Code";
+"QR.header.title" = "My QR Code";
+"QR.click.action.text" = "Click QR code and save to album";
+"QR.referral.info.text" = "* Get your friend to download this app just by\nscanning your Referral QR code!";
+"QR.Camera.permission.text" = "Camera is required to use in this application";
+"QR.Camera.ScanFail.text" = "Scanned Failed";
+"QR.Camera.Invalid.text" = "Invalid QR Scanned";
+
+// Activity
+"Activity.SystemNotification.text" = "System Notification";
+"Activity.OrderHistory.text" = "Order History";
+"Activity.Rebate.text" = "Rebate";
+"Activity.Transfer.text" = "Transfer";
+"Activity.CheckIn.text" = "Check In";
+"Activity.Mission.text" = "Mission";
+
+// Rebate Information
+"RebateInformation.title" = "Rebate Information";
+"NewRegister.text" = "New Register";
+"ActivePlayer.text" = "Active Player";
+"TotalPlayer.text" = "Total Player";
+"DownlineTotalTurnover.text" = "Downline Total Turnover";
+"DirectDownlineRebate.text" = "Direct Downline Rebate";
+"UserOwnRebate.text" = "User Own Rebate";
+"UserTotalRebate.text" = "User Total Rebate";
+
+// Check In
+"CheckIn.caution.text" = "Please check in daily by clicking on the box below\nMissing 1 day will reset your daily check in rewards";
+"CheckIn.week.text" = "Week %@";
+"CheckIn.week.description" = "Complete check-in from Day %@ to Day %@ and get extra bonus!";
+"CheckIn.Day.text.capitalize" = "DAY";
+"CheckIn.Day.text" = "Day %@";
+"CheckIn.Achieve.text" = "CONGRATULATIONS\n%@";
+"CheckIn.Achieve.Amount.text" = "RM %@";
+"CheckIn.Achieve.description" = "Come back everyday and earn next reward";
+
+// Mission
+"Mission.nav.title" = "Missions";
+"Mission.description.text" = "Complete all missions and earn extra reward";
+"Mission.daily.text" = "Daily";
+"Mission.weekly.text" = "Weekly";
+"Mission.monthly.text" = "Monthly";
+"Mission.deposit.text" = "%@ Deposit";
+"Mission.turnover.text" = "%@ Turnover";
+
+// Transfer
+"Transfer.ownBalance.text" = "Own Account Balance";
+"Transfer.username.text" = "User Name";
+"Transfer.username.placeholder" = "Enter User Name";
+"Transfer.amount.placeholder" = "Enter Amount";
+"Transfer.success.title" = "Successful";
+"Transfer.success.text" = "The transfer to %@ has been successful";
+"Transfer.fail.title" = "Unsuccessful";
+"Transfer.fail.text" = "The transfer to %@ has been unsuccessful";
+
+// System Notification
+"SystemNotification.nav.title" = "System Notification";
+
+// Order History
+"OrderHistory.nav.title" = "Order History";
+
+// Transaction History
+"TransactionHistory.title" = "Transaction History";
+
+// Payment
+"Payment.Balance.text" = "Balance (MYR)";
+"PaymentGateway.text" = "Payment Gateway";
+"BankTransfer.text" = "Bank Transfer";
+"TouchNGo.text" = "Touch'n Go";
+"Withdraw.text" = "Withdraw";
+"AddBank.text" = "Add bank account";
+"SetupPaymentPin.text" = "Please setup your payment pin";
+"EnterPaymentPin.text" = "Please enter your payment pin";
+
+// Payment Gateway
+"SelectBank.PG.text" = "Select bank";
+"SelectAmount.PG.text" = "Select Amount";
+"Amount.PG.range.text" = "* Kindly fill in amount RM 30 - RM 20K";
+"Safety.PG.text" = "For the safety of your func, the minimum deposit amount is RM 30.00, maximum deposit amount is RM 20K, it is recommended not to deposit in whole number. Tips: The bank card information might change in time please verify bank info before depositing each time. The company will not held any responsibilities caused by expired bank info. Thanks.";
+
+// Bank Transfer
+"SelectBank.BT.text" = "Select bank";
+"BankDetail.BT.text" = "Bank Details";
+"BankDetail.BT.description" = "Please click here for bank details";
+"Safety.BT.text" = "For the safety of your func, the minimum deposit amount is RM 30.00, maximum deposit amount is RM 20K, it is recommended not to deposit in whole number. Tips: The bank card information might change in time please verify bank info before depositing each time. The company will not held any responsibilities caused by expired bank info. Thanks.";
+"Receipt.BT.text" = "Receipt Image";
+"Receipt.BT.placeholder" = "Please upload your receipt";
+
+// Bank Transfer PopUp
+"BT.Amount.text" = "Amount";
+"Amount.BT.range.text" = "* Kindly fill in amount RM 20 - RM 10K";
+
+// TnG
+"TnG.title" = "Scan & Pay with Touch'n Go";
+"Amount.TnG.range.text" = "* Kindly fill in amount RM 30 - RM 20K";
+
+// Withdrawal
+"Withdrawal.title" = "My Bank Account\nSelect Bank";
+"Terms.Withdrawal.text" = "You may only perform a maximum of 3 free withdrawals per day.\nExceed this limit the service charge will be applied.\nThe free withdrawal left: %@\nService Charge: %@\nMoney deposited must have a transaction in any game only to be able to withdraw.";
+
+// Withdrawal Add Bank
+"AddBank.title" = "Add Bank Account";
+"SelectBank.text" = "Select Bank";
+
+// VIP
+"vip.award.level.text" = "VIP\n%d";
+"vip.progress.level.text" = "VIP%d";
+"vip.privilege.text" = "Privilege";
+"vip.detail.text" = "VIP Details";
+"vip.daily.withdraw.times.text" = "Daily\nwithdraw times";
+"vip.daily.withdraw.amount.text" = "Daily\nwithdraw amount";
+"vip.daily.transfer.times.text" = "Daily\ntransfer credit times";
+"vip.nextLevel.term" = "To achieve VIP %d just only need to\nreload %@ and turnover %@ pp";
+"vip.status.completed.text" = "Completed %@ reload and %@ turnover";
+"vip.detail.rate.text" = "%.2f%%";

