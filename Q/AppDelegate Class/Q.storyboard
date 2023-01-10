@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3jM-pF-aza">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3jM-pF-aza">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -3634,10 +3634,10 @@
             </objects>
             <point key="canvasLocation" x="-4363.768115942029" y="1532.8125"/>
         </scene>
-        <!--Home View Controller-->
+        <!--Dashboard View Controller-->
         <scene sceneID="nIh-Bt-mX4">
             <objects>
-                <viewController id="AKt-p9-g3e" customClass="HomeViewController" customModule="GPS_Photo_Maker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AKt-p9-g3e" customClass="DashboardViewController" customModule="GPS_Photo_Maker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qVD-c1-jLh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3743,7 +3743,7 @@
                                                             <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="EmptyButton.text"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="vipClicked:" destination="AKt-p9-g3e" eventType="touchUpInside" id="8Z8-rd-1VW"/>
+                                                            <action selector="vipClicked:" destination="AKt-p9-g3e" eventType="touchUpInside" id="36e-hI-yko"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -3790,7 +3790,7 @@
                                                             <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="EmptyButton.text"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="qrClicked:" destination="AKt-p9-g3e" eventType="touchUpInside" id="eHd-bS-Udt"/>
+                                                            <action selector="qrClicked:" destination="AKt-p9-g3e" eventType="touchUpInside" id="Co2-am-QzH"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -3837,7 +3837,7 @@
                                                             <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="EmptyButton.text"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="helpClicked:" destination="AKt-p9-g3e" eventType="touchUpInside" id="QAD-qw-d9t"/>
+                                                            <action selector="helpClicked:" destination="AKt-p9-g3e" eventType="touchUpInside" id="Z6S-Pe-eeg"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -3884,7 +3884,7 @@
                                                             <userDefinedRuntimeAttribute type="string" keyPath="xibLocKey" value="EmptyButton.text"/>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <action selector="infoClicked:" destination="AKt-p9-g3e" eventType="touchUpInside" id="lR0-v2-HDT"/>
+                                                            <action selector="infoClicked:" destination="AKt-p9-g3e" eventType="touchUpInside" id="TQ4-yw-umk"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -4086,13 +4086,13 @@
                     <navigationItem key="navigationItem" id="Q0E-CR-3IL"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
-                        <outlet property="announcementLbl" destination="ET4-Qd-6Jx" id="JDR-Wd-Mmj"/>
-                        <outlet property="carouselBanner" destination="prh-8r-57y" id="reJ-kV-hN5"/>
-                        <outlet property="categoryTableView" destination="I2g-27-LKj" id="cmB-pp-H6q"/>
+                        <outlet property="announcementLbl" destination="ET4-Qd-6Jx" id="7YE-RW-msP"/>
+                        <outlet property="carouselBanner" destination="prh-8r-57y" id="ot1-up-Ieh"/>
+                        <outlet property="categoryTableView" destination="I2g-27-LKj" id="Zgo-WN-S6S"/>
                         <outlet property="gameCollectionView" destination="A2A-6b-g8g" id="4YP-sd-7bk"/>
-                        <outlet property="loadingView" destination="JPm-Td-7m6" id="rwc-iU-7sC"/>
-                        <outlet property="mainWalletBalance" destination="oCE-IY-jBf" id="28e-LF-UTD"/>
-                        <outlet property="userName" destination="FYH-Rq-CSl" id="ffR-ZA-KvM"/>
+                        <outlet property="loadingView" destination="JPm-Td-7m6" id="bQL-eC-fMO"/>
+                        <outlet property="mainWalletBalance" destination="oCE-IY-jBf" id="Ey1-mv-1fu"/>
+                        <outlet property="userName" destination="FYH-Rq-CSl" id="u1b-Ml-aYH"/>
                         <outlet property="vipLevel" destination="f5g-gc-XO1" id="A6T-hM-AVW"/>
                         <segue destination="mWa-mc-Lcu" kind="presentation" identifier="gamePopUp" modalPresentationStyle="overFullScreen" id="MAC-kS-XIF"/>
                         <segue destination="Qsc-kP-UWY" kind="show" identifier="referralQR" id="eWV-l3-OD2"/>
@@ -10347,10 +10347,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DK6-hw-24p">
-                                <rect key="frame" x="0.0" y="92" width="414" height="721"/>
+                                <rect key="frame" x="0.0" y="48" width="414" height="765"/>
                                 <subviews>
                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uue-Hq-PmD">
-                                        <rect key="frame" x="41.5" y="195" width="331" height="331"/>
+                                        <rect key="frame" x="41.5" y="217" width="331" height="331"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2hQ-Pm-hFg" customClass="QRScannerView" customModule="MercariQRScanner">
                                                 <rect key="frame" x="0.0" y="0.0" width="331" height="331"/>
@@ -10367,7 +10367,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NIR-55-pIf">
-                                        <rect key="frame" x="103.5" y="571" width="207" height="48"/>
+                                        <rect key="frame" x="103.5" y="607" width="207" height="48"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pillBackground" translatesAutoresizingMaskIntoConstraints="NO" id="K6d-eF-VsC">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="48"/>
@@ -10474,10 +10474,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bmc-ld-lUV">
-                                <rect key="frame" x="0.0" y="92" width="414" height="721"/>
+                                <rect key="frame" x="0.0" y="48" width="414" height="765"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kT4-zs-0D6">
-                                        <rect key="frame" x="103.5" y="571" width="207" height="48"/>
+                                        <rect key="frame" x="103.5" y="607" width="207" height="48"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pillBackground" translatesAutoresizingMaskIntoConstraints="NO" id="IbO-pS-TXx">
                                                 <rect key="frame" x="0.0" y="0.0" width="207" height="48"/>
@@ -11658,11 +11658,11 @@
         <designable name="FlY-GH-F9q"/>
     </designables>
     <inferredMetricsTieBreakers>
-        <segue reference="LUC-3T-sEI"/>
-        <segue reference="Oj9-Lh-vr8"/>
+        <segue reference="tCk-49-RMt"/>
+        <segue reference="WwQ-3h-6QP"/>
         <segue reference="MAC-kS-XIF"/>
         <segue reference="eWV-l3-OD2"/>
-        <segue reference="kQD-fo-1Rw"/>
+        <segue reference="XGp-kP-jy5"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="18+" width="68" height="68"/>

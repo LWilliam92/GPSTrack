@@ -11,7 +11,7 @@ import iCarousel
 import iProgressHUD
 import SNCollectionViewLayout
 
-class DashboardViewController: UIViewController {
+@objc class DashboardViewController: UIViewController {
     @IBOutlet weak var gameCollectionView: UICollectionView!
     @IBOutlet weak var categoryTableView: UITableView!
     @IBOutlet var carouselBanner: iCarousel!

@@ -8,7 +8,7 @@
 import UIKit
 import iProgressHUD
 
-class TabbarViewController: UITabBarController, UITabBarControllerDelegate {
+@objc class TabbarViewController: UITabBarController, UITabBarControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.delegate = self

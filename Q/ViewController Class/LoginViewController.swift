@@ -282,11 +282,11 @@ extension LoginViewController {
                         UserDefaults.standard.synchronize()
                     }
                     CoreSingletonData.shared.token = response?.token
-                    let main = UIStoryboard(name: "Main", bundle: nil)
+                    let main = UIStoryboard(name: "Q", bundle: nil)
                     let dashboardController = main.instantiateViewController(withIdentifier: "TabBarController") as! TabbarViewController
-//                    let appDelegate = UIApplication.shared.delegate as! AppDelegate
-//                    appDelegate.window?.rootViewController = UINavigationController(rootViewController: dashboardController)
-//                    appDelegate.window?.makeKeyAndVisible()
+                    let appDelegate = UIApplication.shared.delegate
+                    appDelegate?.window!!.rootViewController = UINavigationController(rootViewController: dashboardController)
+                    appDelegate?.window!!.makeKeyAndVisible()
                 } else {
                     let alert = UIAlertController(title: "Error", message: response?.message, preferredStyle: .alert)
                     alert.addAction(UIAlertAction(title: "OK", style: .cancel))

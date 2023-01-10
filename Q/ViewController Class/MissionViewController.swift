@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 import iProgressHUD
 
-class MissionViewController: UIViewController {
+@objc class MissionViewController: UIViewController {
     
     @IBOutlet weak var missionTableView: UITableView!
     
