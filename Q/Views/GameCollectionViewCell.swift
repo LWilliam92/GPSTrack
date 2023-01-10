@@ -16,6 +16,9 @@ class GameCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var comingSoonImgView: UIImageView!
     
     func setCell(item: GameCollectionData) {
+        imgView.image = nil
+        titleImgView.image = nil
+        comingSoonImgView.image = nil
         guard let titleUrl = URL(string: item.image_left?.getEncodingUrl() ?? ""),
               let gameUrl = URL(string: item.image_right?.getEncodingUrl() ?? ""),
               let maintenanceUrl = URL(string: item.maintenance_images_v2?.getEncodingUrl() ?? "") else { return }
