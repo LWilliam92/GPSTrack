@@ -61,7 +61,7 @@ class GameCollectionData {
         self.image_left = comingSoonGame.image_left
         self.image_right = comingSoonGame.image_right
         self.maintenance_images = ""
-        self.maintenance_images_v2 = ""
+        self.maintenance_images_v2 = comingSoonGame.image_right
         self.category = "99"
         self.open_browser = false
         self.open_ios_browser = false

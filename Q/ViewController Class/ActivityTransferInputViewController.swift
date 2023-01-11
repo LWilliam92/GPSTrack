@@ -28,6 +28,7 @@ class ActivityTransferInputViewController: UIViewController {
     }
     
     func setupView() {
+        self.amount.keyboardType = .decimalPad
         self.ownBalance.text = CoreSingletonData.shared.userInfo?.main_wallet_balance?.asCurrencyDecimal()
         self.ownBalance.isUserInteractionEnabled = false
         if CoreSingletonData.shared.scannedUsername.isEmptyOrNil == false {

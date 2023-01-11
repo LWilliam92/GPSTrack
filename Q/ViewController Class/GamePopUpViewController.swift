@@ -104,7 +104,7 @@ class GamePopUpViewController: UIViewController {
         
         let total = (CoreSingletonData.shared.gameList?.main_wallet_balance ?? 0) + (CoreSingletonData.shared.gameList?.rolling_chip ?? 0)
         amountLbl.text = total.asCurrencyDecimal()
-        amountLbl.keyboardType = .numberPad
+        amountLbl.keyboardType = .decimalPad
         amountLbl.clearButtonMode = .whileEditing
         totalLbl.text = String(format: "Total.text".localized(), total.asCurrencyDecimal())
         
