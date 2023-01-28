@@ -28,6 +28,7 @@ class GameCollectionData {
     var points: String?
     var scheme: String?
     var scheme_download_url: String?
+    var isComingSoon: Bool? 
     
     // Initializing property
     init(game: GameCollectionModel) {
@@ -52,6 +53,7 @@ class GameCollectionData {
         self.points = game.points
         self.scheme = game.scheme
         self.scheme_download_url = game.scheme_download_url
+        self.isComingSoon = false
     }
     
     init(comingSoonGame: ComingSoonModel) {
@@ -76,6 +78,7 @@ class GameCollectionData {
         self.points = ""
         self.scheme = ""
         self.scheme_download_url = ""
+        self.isComingSoon = true
     }
     
 }

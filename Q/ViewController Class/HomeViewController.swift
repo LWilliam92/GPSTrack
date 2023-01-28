@@ -198,7 +198,15 @@ extension DashboardViewController: UICollectionViewDataSource, UICollectionViewD
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        self.showGamePopUp(index: indexPath.row)
+        if currentCategoryId == 99 {
+            if gameCollectionModel?[indexPath.row].isComingSoon == false {
+                self.showGamePopUp(index: indexPath.row)
+            }
+        } else {
+            if filteredCollectionModel?[indexPath.row].isComingSoon == false {
+                self.showGamePopUp(index: indexPath.row)
+            }
+        }
     }
     
     // scale for items based number of columns

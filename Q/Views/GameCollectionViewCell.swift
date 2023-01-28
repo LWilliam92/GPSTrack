@@ -23,7 +23,6 @@ class GameCollectionViewCell: UICollectionViewCell {
               let gameUrl = URL(string: item.image_right?.getEncodingUrl() ?? ""),
               let maintenanceUrl = URL(string: item.maintenance_images_v2?.getEncodingUrl() ?? "") else { return }
         if item.game_id != -1 {
-            comingSoonImgView.isHidden = true
             titleImgView.sd_setImage(with: titleUrl)
             if item.is_maintenance == true {
                 imgView.sd_setImage(with: maintenanceUrl)
@@ -31,9 +30,12 @@ class GameCollectionViewCell: UICollectionViewCell {
                 imgView.sd_setImage(with: gameUrl)
             }
         } else {
-            comingSoonImgView.isHidden = false
             titleImgView.sd_setImage(with: titleUrl)
             imgView.sd_setImage(with: gameUrl)
+        }
+        if item.isComingSoon == true {
+            comingSoonImgView.image = UIImage(named: "comingSoon")
+            comingSoonImgView.isHidden = false
         }
     }
     
