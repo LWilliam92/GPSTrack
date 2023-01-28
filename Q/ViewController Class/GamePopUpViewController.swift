@@ -203,7 +203,11 @@ class GamePopUpViewController: UIViewController {
                         CoreSingletonData.shared.webViewType = .game
                         CoreSingletonData.shared.toOpenUrl = response?.url
                         CoreSingletonData.shared.gameHost = self.selectedGameModel?.game_name
-                        self.performSegue(withIdentifier: "openWebview", sender: nil)
+                        if response?.url != nil {
+                            self.performSegue(withIdentifier: "openWebview", sender: nil)
+                        } else {
+                            showAlertView("Alert", "Sorry the game is under maintainance", controller: self, completion: nil)
+                        }
                     }
                 } else {
                     showAlertView("Error.text".localized(), response?.message ?? "", controller: self, completion: nil)
