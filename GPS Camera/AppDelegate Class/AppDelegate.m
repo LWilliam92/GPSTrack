@@ -27,7 +27,7 @@
     // Pass user's consent after acquiring it. For sample app purposes, this is set to YES.
     [FBAdSettings setAdvertiserTrackingEnabled:YES];
 
-    [[IQKeyboardManager shared] setEnable:YES];
+//    [[IQKeyboardManager shared] setEnable:YES];
     //THIS IS DEFAULT FORMATE OF DATE
     if ([[NSUserDefaults standardUserDefaults]objectForKey:@"dateFormate"] == nil) {
         [[NSUserDefaults standardUserDefaults]setObject:@"dd-mm-yyyy" forKey:@"dateFormate"];
