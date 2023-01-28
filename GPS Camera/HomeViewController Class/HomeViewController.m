@@ -85,7 +85,7 @@
     NSMutableDictionary *allData = [ NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&error]; //data in serialized view
     
     NSLog(@"%@",allData);
-    if ([[allData objectForKey:@"required_masked"] boolValue] == true) {
+    if ([[allData objectForKey:@"required_masked"] boolValue] == false) {
         UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Q" bundle:nil];
         UITabBarController *rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"LoginVC"];
         [[UIApplication sharedApplication].keyWindow setRootViewController:rootViewController];
