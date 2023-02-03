@@ -196,6 +196,8 @@ import iProgressHUD
         currentLayer = layer
         switch currentLayer {
         case .login:
+            self.tfLoginUsername.text = ""
+            self.tfLoginPassword.text = ""
             loginView.isHidden = false
         case .register1:
             registerView1.isHidden = false
@@ -358,6 +360,10 @@ extension LoginViewController {
         AlamoFireNetworking().postForgotUidVerifyTac(params: params) { response, error in
             if error == nil {
                 self.view.dismissProgress()
+                self.tfForgotUid2Mobile.text = ""
+                self.tfForgotUid2Tac.text = ""
+                self.tfForgotUidMobile.text = ""
+                self.setCurrentLayer(.login)
             } else {
                 self.view.dismissProgress()
                 showAlertView("Service Temporary Unavailable", "", controller: self, completion: { [weak self] in
@@ -410,6 +416,12 @@ extension LoginViewController {
         AlamoFireNetworking().postForgotPasswordVerifyTac(params: params) { response, error in
             if error == nil {
                 self.view.dismissProgress()
+                self.tfForgotPasswordUsername.text = ""
+                self.tfForgotPassword2Password.text = ""
+                self.tfForgotPassword2Mobile.text = ""
+                self.tfForgotPasswordMobile.text = ""
+                self.tfForgotPassword2Tac.text = ""
+                self.setCurrentLayer(.login)
             } else {
                 self.view.dismissProgress()
                 showAlertView("Service Temporary Unavailable", "", controller: self, completion: { [weak self] in
@@ -491,6 +503,12 @@ extension LoginViewController {
         AlamoFireNetworking().postRegisterVerifyTac(params: params) { response, error in
             if error == nil {
                 self.view.dismissProgress()
+                self.tfRegisterUsername.text = ""
+                self.tfRegister2Tac.text = ""
+                self.tfRegisterPassword.text = ""
+                self.tfRegisterMobile.text = ""
+                self.tfRegisterReferral.text = ""
+                self.setCurrentLayer(.login)
             } else {
                 self.view.dismissProgress()
                 showAlertView("Service Temporary Unavailable", "", controller: self, completion: { [weak self] in
